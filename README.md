@@ -21,7 +21,7 @@
 **方式一：用 `npx skills` 一键安装（推荐）**
 
 ```bash
-npx skills add YOUR_NAME/test-case-skill
+npx skills add test111ddff-hash/test-case-skill
 ```
 
 **方式二：手动安装（GitHub）**
@@ -29,7 +29,7 @@ npx skills add YOUR_NAME/test-case-skill
 ```bash
 mkdir -p ~/.cursor/skills/test-case-generator
 curl -o ~/.cursor/skills/test-case-generator/SKILL.md \
-  https://raw.githubusercontent.com/YOUR_NAME/test-case-skill/main/skills/test-case-generator/SKILL.md
+  https://raw.githubusercontent.com/test111ddff-hash/test-case-skill/main/skills/test-case-generator/SKILL.md
 ```
 
 **方式三：手动安装（Gitee 国内镜像）**
@@ -37,7 +37,7 @@ curl -o ~/.cursor/skills/test-case-generator/SKILL.md \
 ```bash
 mkdir -p ~/.cursor/skills/test-case-generator
 curl -o ~/.cursor/skills/test-case-generator/SKILL.md \
-  https://gitee.com/YOUR_NAME/test-case-skill/raw/main/skills/test-case-generator/SKILL.md
+  https://gitee.com/chang-xinping/test-case-skill/raw/main/skills/test-case-generator/SKILL.md
 ```
 
 安装后重启 Cursor 即可。
